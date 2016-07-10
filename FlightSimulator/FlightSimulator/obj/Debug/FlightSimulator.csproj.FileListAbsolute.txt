@@ -1,0 +1,9 @@
+c:\users\admin\documents\visual studio 2015\Projects\FlightSimulator\FlightSimulator\bin\Debug\FlightSimulator.exe.config
+c:\users\admin\documents\visual studio 2015\Projects\FlightSimulator\FlightSimulator\bin\Debug\FlightSimulator.exe
+c:\users\admin\documents\visual studio 2015\Projects\FlightSimulator\FlightSimulator\bin\Debug\FlightSimulator.pdb
+c:\users\admin\documents\visual studio 2015\Projects\FlightSimulator\FlightSimulator\bin\Debug\OpenTK.dll
+c:\users\admin\documents\visual studio 2015\Projects\FlightSimulator\FlightSimulator\bin\Debug\OpenTK.pdb
+c:\users\admin\documents\visual studio 2015\Projects\FlightSimulator\FlightSimulator\bin\Debug\OpenTK.xml
+c:\users\admin\documents\visual studio 2015\Projects\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2015\Projects\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.exe
+c:\users\admin\documents\visual studio 2015\Projects\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.pdb
