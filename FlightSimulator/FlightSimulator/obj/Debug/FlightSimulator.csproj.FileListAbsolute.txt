@@ -7,3 +7,11 @@ c:\users\admin\documents\visual studio 2015\Projects\FlightSimulator\FlightSimul
 c:\users\admin\documents\visual studio 2015\Projects\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.csprojResolveAssemblyReference.cache
 c:\users\admin\documents\visual studio 2015\Projects\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.exe
 c:\users\admin\documents\visual studio 2015\Projects\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.pdb
+C:\Users\Henna\Documents\Git\OpenTK-FlightSimulator\FlightSimulator\FlightSimulator\bin\Debug\FlightSimulator.exe.config
+C:\Users\Henna\Documents\Git\OpenTK-FlightSimulator\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.exe
+C:\Users\Henna\Documents\Git\OpenTK-FlightSimulator\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.pdb
+C:\Users\Henna\Documents\Git\OpenTK-FlightSimulator\FlightSimulator\FlightSimulator\bin\Debug\FlightSimulator.exe
+C:\Users\Henna\Documents\Git\OpenTK-FlightSimulator\FlightSimulator\FlightSimulator\bin\Debug\FlightSimulator.pdb
+C:\Users\Henna\Documents\Git\OpenTK-FlightSimulator\FlightSimulator\FlightSimulator\bin\Debug\OpenTK.pdb
+C:\Users\Henna\Documents\Git\OpenTK-FlightSimulator\FlightSimulator\FlightSimulator\bin\Debug\OpenTK.xml
+C:\Users\Henna\Documents\Git\OpenTK-FlightSimulator\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.csprojResolveAssemblyReference.cache

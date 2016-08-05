@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using OpenTK;
 
 namespace FlightSimulator
@@ -11,7 +7,9 @@ namespace FlightSimulator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Team!");
+            var window = new GameWindow(640, 480);
+            var simulator = new FlightSimulator(window);
+            window.Run();
         }
     }
 }
