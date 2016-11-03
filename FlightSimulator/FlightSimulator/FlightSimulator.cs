@@ -8,13 +8,16 @@ namespace FlightSimulator
     class FlightSimulator
     {
         public GameWindow window;
+        public Camera cam;
 
-        Vector2[] vertBuffer;
+
+        Vector3[] vertBuffer;
         int VBO;
 
         public FlightSimulator(GameWindow window)
         {
             this.window = window;
+            cam = new Camera();
 
             window.Load += Window_Load;
             window.RenderFrame += Window_RenderFrame;
@@ -26,19 +29,34 @@ namespace FlightSimulator
         {
             GL.ClearColor(Color.DarkBlue);
 
-            vertBuffer = new Vector2[4]
+            vertBuffer = new Vector3[16]
             {
-                new Vector2(0, 0),
-                new Vector2(1, 0),
-                new Vector2(1, 1),
-                new Vector2(0, 1)
+                new Vector3(0, 0, 0),
+                new Vector3(1, 0, 0),
+                new Vector3(1, 1, 0),
+                new Vector3(0, 1, 0),
+                
+                new Vector3(1, 0, 0),
+                new Vector3(1, 0, 1),
+                new Vector3(1, 1, 1),
+                new Vector3(1, 1, 0),
+
+                new Vector3(0, 0, 1),
+                new Vector3(1, 0, 1),
+                new Vector3(0, 1, 1),
+                new Vector3(1, 1, 1),
+                
+                new Vector3(0, 0, 1),
+                new Vector3(0, 0, 0),
+                new Vector3(0, 1, 0),
+                new Vector3(0, 1, 1)
             };
 
             VBO = GL.GenBuffer();
             GL.BindBuffer(BufferTarget.ArrayBuffer, VBO);
             GL.BufferData(
                 BufferTarget.ArrayBuffer,
-                (IntPtr)(Vector2.SizeInBytes * vertBuffer.Length),
+                (IntPtr)(Vector3.SizeInBytes * vertBuffer.Length),
                 vertBuffer,
                 BufferUsageHint.StaticDraw
             );
@@ -51,6 +69,7 @@ namespace FlightSimulator
 
         private void Window_UpdateFrame(object sender, FrameEventArgs e)
         {
+            v.ViewProjectionMatrix = cam.GetViewMatrix() * Matrix4.CreatePerspectiveFieldOfView(1.3f, ClientSize.Width / (float)ClientSize.Height, 1.0f, 40.0f);
         }
 
         private void Window_RenderFrame(object sender, FrameEventArgs e)

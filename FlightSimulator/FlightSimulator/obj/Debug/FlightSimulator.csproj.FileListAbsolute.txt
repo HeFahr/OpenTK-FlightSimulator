@@ -15,3 +15,11 @@ C:\Users\Henna\Documents\Git\OpenTK-FlightSimulator\FlightSimulator\FlightSimula
 C:\Users\Henna\Documents\Git\OpenTK-FlightSimulator\FlightSimulator\FlightSimulator\bin\Debug\OpenTK.pdb
 C:\Users\Henna\Documents\Git\OpenTK-FlightSimulator\FlightSimulator\FlightSimulator\bin\Debug\OpenTK.xml
 C:\Users\Henna\Documents\Git\OpenTK-FlightSimulator\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.csprojResolveAssemblyReference.cache
+C:\Development\OpenTK-FlightSimulator\FlightSimulator\FlightSimulator\bin\Debug\FlightSimulator.exe.config
+C:\Development\OpenTK-FlightSimulator\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.exe
+C:\Development\OpenTK-FlightSimulator\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.pdb
+C:\Development\OpenTK-FlightSimulator\FlightSimulator\FlightSimulator\bin\Debug\FlightSimulator.exe
+C:\Development\OpenTK-FlightSimulator\FlightSimulator\FlightSimulator\bin\Debug\FlightSimulator.pdb
+C:\Development\OpenTK-FlightSimulator\FlightSimulator\FlightSimulator\bin\Debug\OpenTK.pdb
+C:\Development\OpenTK-FlightSimulator\FlightSimulator\FlightSimulator\bin\Debug\OpenTK.xml
+C:\Development\OpenTK-FlightSimulator\FlightSimulator\FlightSimulator\obj\Debug\FlightSimulator.csprojResolveAssemblyReference.cache
